@@ -1,11 +1,16 @@
 [[redirects]]
-  from = "/beta/*"
-  to = "/index.html"
-  status = 200
-  force = false
+    from = "/about/*"
+    to = "https://verdant-raindrop-315446.netlify.app/about/:splat"
+    status = 200
+    force = true
 
 [[redirects]]
-  from = "*"
-  to = "/index.html"
-  status = 200
-  force = false
+    from = "/dashboard/*"
+    to = "https://verdant-raindrop-315446.netlify.app/about/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
