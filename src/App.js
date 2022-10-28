@@ -48,9 +48,6 @@ function Layout() {
           <li>
             <Link to="/beta/dashboard">Dashboard</Link>
           </li>
-          <li>
-            <Link to="/beta/nothing-here">Nothing Here</Link>
-          </li>
         </ul>
       </nav>
 
@@ -85,17 +82,6 @@ function Dashboard() {
   return (
     <div>
       <h2>Dashboard</h2>
-    </div>
-  );
-}
-
-function NoMatch() {
-  return (
-    <div>
-      <h2>Nothing to see here!</h2>
-      <p>
-        <Link to="/beta">Go to the home page</Link>
-      </p>
     </div>
   );
 }
