@@ -1,2 +1,2 @@
 https://cat-beta.netlify.app/* https://cat-beta.netlify.app/beta/:splat 301!
-https://cat-beta.netlify.app/beta/* index.html 301!
+https://cat-beta.netlify.app/beta/* /index.html 301!
