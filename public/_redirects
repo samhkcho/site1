@@ -1,1 +1,7 @@
+[[redirects]]
+    from = "/original-app/*"
+    to = "https://verdant-raindrop-315446.netlify.app/:splat"
+    status = 200
+    force = true
+
 /* /index.html 200
