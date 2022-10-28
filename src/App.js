@@ -7,7 +7,6 @@ export default function App() {
   return (
     <div>
       <h1 style={{ color: 'red' }}>BETA SITE</h1>
-
       <p>
         This example demonstrates some of the core features of React Router
         including nested <code>&lt;Route&gt;</code>s,{' '}
@@ -15,26 +14,12 @@ export default function App() {
         "*" route (aka "splat route") to render a "not found" page when someone
         visits an unrecognized URL.
       </p>
-
-      {/* Routes nest inside one another. Nested route paths build upon
-            parent route paths, and nested route elements render inside
-            parent route elements. See the note about <Outlet> below. */}
       <Routes>
-        {/* proxy */}
-        {/* <Route exact path="https://verdant-raindrop-315446.netlify.app/">
-          <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />
-        </Route> */}
-        {/* normal */}
         <Route index element={<Home />} />
         <Route path="/beta" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<AboutBeta />} />
           <Route path="dashboard" element={<Dashboard />} />
-
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
         </Route>
       </Routes>
     </div>
