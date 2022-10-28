@@ -4,7 +4,7 @@ import { Routes, Route, Outlet, Link } from 'react-router-dom';
 export default function App() {
   return (
     <div>
-      <h1>Basic Example</h1>
+      <h1 style={{ color: 'red' }}>BETA SITE</h1>
 
       <p>
         This example demonstrates some of the core features of React Router
