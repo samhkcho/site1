@@ -52,10 +52,14 @@ function Layout() {
             <Link to="/beta">Home</Link>
           </li>
           <li>
-            <Link to="/original-app/about">About</Link>
+            <Link reloadDocument to="/about">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/original-app/dashboard">Dashboard</Link>
+            <Link reloadDocument to="/dashboard">
+              Dashboard
+            </Link>
           </li>
         </ul>
       </nav>
