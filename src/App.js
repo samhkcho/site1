@@ -43,16 +43,16 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/beta">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/beta/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/beta/dashboard">Dashboard</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/beta/nothing-here">Nothing Here</Link>
+            <Link to="/nothing-here">Nothing Here</Link>
           </li>
         </ul>
       </nav>
@@ -97,7 +97,7 @@ function NoMatch() {
     <div>
       <h2>Nothing to see here!</h2>
       <p>
-        <Link to="/beta">Go to the home page</Link>
+        <Link to="/">Go to the home page</Link>
       </p>
     </div>
   );
