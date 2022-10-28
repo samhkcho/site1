@@ -28,6 +28,7 @@ export default function App() {
                 routes for. */}
           <Route path="*" element={<NoMatch />} />
         </Route>
+        <Route index element={<Home />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
@@ -42,16 +43,16 @@ function Layout() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/beta">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/beta/about">About</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/beta/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/nothing-here">Nothing Here</Link>
+            <Link to="/beta/nothing-here">Nothing Here</Link>
           </li>
         </ul>
       </nav>
