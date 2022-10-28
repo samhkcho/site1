@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Routes, Route, Outlet, Link } from 'react-router-dom';
 
 export default function App() {
+  // eslint-disable-next-line no-restricted-globals
+  console.log(location);
   return (
     <div>
       <h1 style={{ color: 'red' }}>BETA SITE</h1>
