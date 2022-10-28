@@ -1,12 +1,12 @@
 [[redirects]]
     from = "/about/*"
-    to = "https://verdant-raindrop-315446.netlify.app/:splat"
+    to = "https://verdant-raindrop-315446.netlify.app/about/:splat"
     status = 200
     force = true
 
 [[redirects]]
     from = "/dashboard/*"
-    to = "https://verdant-raindrop-315446.netlify.app/:splat"
+    to = "https://verdant-raindrop-315446.netlify.app/about/:splat"
     status = 200
     force = true
 
