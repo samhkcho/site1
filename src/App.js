@@ -21,15 +21,15 @@ export default function App() {
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
         {/* proxy */}
-        <Route exact path="https://verdant-raindrop-315446.netlify.app/">
+        {/* <Route exact path="https://verdant-raindrop-315446.netlify.app/">
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
-        </Route>
+        </Route> */}
         {/* normal */}
         <Route index element={<Home />} />
         <Route path="/beta" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<AboutBeta />} />
           <Route path="dashboard" element={<Dashboard />} />
 
           {/* Using path="*"" means "match anything", so this route
@@ -50,6 +50,9 @@ function Layout() {
         <ul>
           <li>
             <Link to="/beta">Home</Link>
+          </li>
+          <li>
+            <Link to="/beta/about">About Beta</Link>
           </li>
           <li>
             <Link reloadDocument to="/about">
@@ -87,6 +90,14 @@ function About() {
   return (
     <div>
       <h2>About</h2>
+    </div>
+  );
+}
+
+function AboutBeta() {
+  return (
+    <div>
+      <h2>About Beta</h2>
     </div>
   );
 }
