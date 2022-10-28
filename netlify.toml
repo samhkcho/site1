@@ -6,6 +6,6 @@
 
 [[redirects]]
   from = "*"
-  to = "/index.html"
+  to = "https://silver-kashata-7e0a85.netlify.app/:splat"
   status = 200
   force = false
